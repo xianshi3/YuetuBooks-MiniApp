@@ -1,0 +1,295 @@
+{
+  "pages": [{
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "首页",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/shopping/shopping",
+      "style": {
+        "navigationStyle": "custom", // 隐藏系统导航栏
+        "navigationBarTextStyle": "black", // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+        "navigationBarTitleText": "商品列表"
+      }
+    },
+    {
+      "path": "pages/publish/publish",
+      "style": {
+        "usingComponents": {},
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "发布"
+      }
+    },
+    {
+      "path": "pages/publish_book/ask_book/ask_book",
+      "style": {
+        "usingComponents": {}
+      }
+    },
+    {
+      "path": "pages/publish_book/input_book/input_book",
+      "style": {
+        "usingComponents": {}
+      }
+    },
+    {
+      "path": "pages/user/user",
+      "style": {
+        "navigationBarTitleText": "个人中心",
+        "navigationStyle": "custom",
+        "usingComponents": {}
+      }
+    },
+    // user
+    {
+      "path": "pages/user/login/login",
+      "style": {
+        "usingComponents": {}
+      }
+    },
+    {
+      "path": "pages/order/order",
+      "style": {
+        "navigationBarTitleText": "我的订单",
+        "enablePullDownRefresh": false,
+        "navigationBarBackgroundColor": "#fff"
+      }
+    },
+    {
+      "path": "pages/order/detail",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/search_result/search_result",
+      "style": {
+        "navigationBarTitleText": "搜索结果页面",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/paypage/paypage",
+      "style": {
+        "navigationBarTitleText": "购物车"
+      }
+    },
+    {
+      "path": "pages/index/up-to-date/up-to-date",
+      "style": {
+        "navigationBarTitleText": "最新",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/index/preferential/preferential",
+      "style": {
+        "navigationBarTitleText": "优惠",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/index/show-bookInfo/show-bookInfo",
+      "style": {
+        "navigationBarTitleText": "求购",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/goods-detail/goods-detail",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/address/list",
+      "style": {
+        "navigationBarTitleText": "我的地址",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/address/edit",
+      "style": {
+        "navigationBarTitleText": "编辑",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/user/comment/comment",
+      "style": {
+        "navigationBarTitleText": "求购管理",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path" : "pages/user/container/container",
+      "style" : 
+      {
+        "navigationBarTitleText" : "发布书籍管理",
+        "enablePullDownRefresh" : false
+      }
+    },
+    {
+      "path" : "pages/index/donation-page/donation-page",
+      "style" : 
+      {
+        "navigationBarTitleText" : "捐赠",
+        "enablePullDownRefresh" : false
+      }
+    },
+    {
+      "path" : "pages/index/donation-page/Book-info",
+      "style" : 
+      {
+        "navigationBarTitleText" : "捐赠书籍信息",
+        "enablePullDownRefresh" : false
+      }
+    },
+    {
+      "path" : "pages/index/donation-page/apply-for",
+      "style" : 
+      {
+        "navigationBarTitleText" : "申领",
+        "enablePullDownRefresh" : false
+      }
+    },
+    {
+      "path" : "pages/user/donation/donation",
+      "style" : 
+      {
+        "navigationBarTitleText" : "我的捐赠",
+        "enablePullDownRefresh" : false
+      }
+    },
+    {
+      "path" : "pages/user/apply/apply",
+      "style" : 
+      {
+        "navigationBarTitleText" : "我的申领",
+        "enablePullDownRefresh" : false
+      }
+    }
+  ],
+  "subPackages": [{
+    "root": "pages_manage",
+    "pages": [{
+        "path": "index/index",
+        "style": {
+          "navigationBarTitleText": "后台管理首页"
+        }
+      }, {
+        "path": "category/category",
+        "style": {
+          "navigationBarTitleText": "分类管理",
+          "enablePullDownRefresh": false
+        }
+
+      }, {
+        "path": "goods/list",
+        "style": {
+          "navigationBarTitleText": "商品列表",
+          "enablePullDownRefresh": false
+        }
+      }, {
+        "path": "goods/add",
+        "style": {
+          "navigationBarTitleText": "新增商品",
+          "enablePullDownRefresh": false
+        }
+      }, {
+        "path": "brand/brand",
+        "style": {
+          "navigationBarTitleText": "商户信息",
+          "enablePullDownRefresh": false
+        }
+
+      },
+      {
+        "path": "list/list",
+        "style": {
+          "navigationBarTitleText": "",
+          "enablePullDownRefresh": false
+        }
+      },
+      {
+        "path" : "publish/publish",
+        "style" : 
+        {
+          "navigationBarTitleText" : "发布管理",
+          "enablePullDownRefresh" : false
+        }
+      },
+      {
+        "path" : "publish/ask_book",
+        "style" : 
+        {
+          "navigationBarTitleText" : "管理员求购管理",
+          "enablePullDownRefresh" : false
+        }
+      },
+      {
+        "path" : "publish/public_welfare",
+        "style" : 
+        {
+          "navigationBarTitleText" : "公益申领管理",
+          "enablePullDownRefresh" : false
+        }
+      },
+      {
+        "path" : "publish/donate",
+        "style" : 
+        {
+          "navigationBarTitleText" : "用户捐赠管理",
+          "enablePullDownRefresh" : false
+        }
+      }
+    ]
+  }],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "uniIdRouter": {},
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#4692DD",
+    "list": [{
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/home.png",
+        "selectedIconPath": "static/images/home-h.png"
+      },
+      {
+        "text": "书籍列表",
+        "pagePath": "pages/shopping/shopping",
+        "iconPath": "static/images/library.png",
+        "selectedIconPath": "static/images/library-h.png"
+      },
+      {
+        "pagePath": "pages/publish/publish",
+        "text": "发布",
+        "iconPath": "static/images/publish.png",
+        "selectedIconPath": "static/images/publish-h.png"
+      },
+      {
+        "text": "购物车",
+        "pagePath": "pages/paypage/paypage",
+        "iconPath": "static/images/Cart.png",
+        "selectedIconPath": "static/images/Cart-h.png"
+      },
+      {
+        "text": "个人中心",
+        "pagePath": "pages/user/user",
+        "iconPath": "static/images/user.png",
+        "selectedIconPath": "static/images/user-h.png"
+      }
+    ]
+  }
+}

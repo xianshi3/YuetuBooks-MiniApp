@@ -1,0 +1,65 @@
+/* uview颜色变量 */
+@import "./uni_modules/uview-ui/theme.scss";
+/** 自定义颜色 */
+$brand-theme-color:#EC544F;  //品牌主体红色
+$brand-theme-color-aux:#576b95;  //品牌辅助色
+$page-bg-color:#F7F7F7;  //页面背景色
+$border-color:#e0e0e0;  //边框颜色
+$border-color-light :#efefef;  //边框亮色
+
+$text-font-color-1:#000;  //文字主色
+$text-font-color-2:#676767;  //副标题颜色
+$text-font-color-3:#a7a7a7;  //浅色
+
+// 样式变量
+$font-size-small: 14rpx;
+$font-size-medium: 16rpx;
+$font-size-large: 18rpx;
+$text-color: #333;
+$text-muted-color: #999;
+$primary-color: #ff5722;
+$card-bg-color: #fff;
+
+
+@mixin flex-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+// 左右居中
+@mixin flex-box-set($jc:center,$ai:center) {
+  @include flex-box();
+  @if($jc == center) {
+    justify-content: center;
+  }
+  @if($jc == start) {
+    justify-content: flex-start;
+  }
+  @if($jc == end) {
+    justify-content: flex-end
+  }
+  @if($jc == between) {
+    justify-content: space-between;
+  }
+  @if($ai == center) {
+    align-items: center;
+  }
+  @if($ai == start) {
+    align-items: flex-start;
+  }
+  @if($ai == end){
+    align-items: flex-end;
+  }
+}
+
+//溢出内容隐藏
+@mixin ellipsis($row:1) {
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: $row;
+  line-clamp: $row;
+  -webkit-box-orient: vertical;
+}

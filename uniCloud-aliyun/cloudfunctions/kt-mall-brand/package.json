@@ -1,0 +1,7 @@
+{
+  "name": "kt-mall-brand",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}
