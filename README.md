@@ -7,8 +7,10 @@ Vue2 + uni-app + uView + uCharts + Vuex
 后端架构：
 uniCloud
 
-功能模块：
+![1](https://github.com/xianshi3/Yuetu-Second-hand-boo-trading-WeChat-Mini-Program/assets/57677273/8d7ea789-9371-4603-8066-3a53a172fa6a)
 
+
+功能模块：
 书籍展示模块：
 最新书籍：展示最近上架的二手书籍，让用户快速了解市场动态。
 优惠书籍：展示价格优惠的二手书籍，吸引用户关注和购买。
