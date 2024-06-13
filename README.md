@@ -9,6 +9,50 @@ uniCloud
 
 ![1](https://github.com/xianshi3/Yuetu-Second-hand-boo-trading-WeChat-Mini-Program/assets/57677273/8d7ea789-9371-4603-8066-3a53a172fa6a)
 
+安装 HBuilderX，导入项目，配置微信小程序开发者工具（WeChat Devtools）并运行项目
+安装 HBuilderX
+
+从官网下载并安装 HBuilderX。
+按照操作系统特定的安装说明进行安装。
+在 HBuilderX 中导入项目
+
+打开 HBuilderX。
+点击顶部菜单中的“文件”，然后选择“打开项目”。
+导航到你的微信小程序项目目录并打开它。
+配置微信小程序开发者工具（WeChat Devtools）
+
+从微信小程序官方网站下载并安装微信开发者工具。
+打开微信开发者工具，并使用你的微信开发者账户登录。
+在 HBuilderX 中，转到“工具” > “微信小程序配置”。
+设置微信开发者工具可执行文件的路径。
+运行项目
+
+在 HBuilderX 中，确保你的项目被选中。
+点击“运行”菜单，然后选择“运行到微信开发者工具”。
+微信开发者工具将打开，并加载你的项目准备运行。
+
+Install HBuilderX, Import Project, Configure WeChat Mini Program Developer Tools (WeChat DevTools), and Run Project
+Install HBuilderX
+
+Download and install HBuilderX from the official website.
+Follow the installation instructions specific to your operating system.
+Import Project into HBuilderX
+
+Open HBuilderX.
+Click on "File" in the top menu, then select "Open Project".
+Navigate to the directory of your WeChat Mini Program project and open it.
+Configure WeChat Mini Program Developer Tools (WeChat DevTools)
+
+Download and install WeChat DevTools from the official WeChat Mini Program website.
+Open WeChat DevTools and log in with your WeChat developer account.
+In HBuilderX, go to "Tools" > "WeChat Mini Program Configuration".
+Set the path of the WeChat DevTools executable file.
+Run the Project
+
+In HBuilderX, ensure your project is selected.
+Click on the "Run" menu, then select "Run to WeChat DevTools".
+WeChat DevTools will open with your project loaded and ready to run.
+
 
 功能模块：
 书籍展示模块：
