@@ -4,7 +4,8 @@ The project is currently in the development and testing phase. It is a front-end
 **Front-end Stack:**
 Vue2 + uni-app + uView + uCharts + Vuex
 
-**Back-end Stack:**uniCloud
+**Back-end Stack:** 
+uniCloud + nodejs
 
 
 ![1](https://github.com/xianshi3/Yuetu-Second-hand-boo-trading-WeChat-Mini-Program/assets/57677273/8d7ea789-9371-4603-8066-3a53a172fa6a)
