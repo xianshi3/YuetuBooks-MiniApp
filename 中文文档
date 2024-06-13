@@ -7,8 +7,6 @@ Vue2 + uni-app + uView + uCharts + Vuex
 后端架构：
 uniCloud
 
-![1](https://github.com/xianshi3/Yuetu-Second-hand-boo-trading-WeChat-Mini-Program/assets/57677273/8d7ea789-9371-4603-8066-3a53a172fa6a)
-
 配置教程:
 安装 HBuilderX，导入项目，配置微信小程序开发者工具（WeChat Devtools）并运行项目
 安装 HBuilderX
