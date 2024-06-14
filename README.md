@@ -11,7 +11,6 @@ uniCloud + nodejs
 ![1](https://github.com/xianshi3/Yuetu-Second-hand-boo-trading-WeChat-Mini-Program/assets/57677273/8d7ea789-9371-4603-8066-3a53a172fa6a)
 
 
-
 ### Installation and Configuration
 
 #### Install HBuilderX
